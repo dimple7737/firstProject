@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../public/fonts/neuehaasdisplayblack-webfont.woff2') format('woff2'), url('../public/fonts/neuehaasdisplayblack-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../public/fonts/neuehaasdisplaybold-webfont.woff2') format('woff2'), url('../public/fonts/neuehaasdisplaybold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../public/fonts/neuehaasdisplaylight-webfont.woff2') format('woff2'), url('../public/fonts/neuehaasdisplaylight-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+// @font-face {
+//     font-family: 'Neue Haas Grotesk Display Pro';
+//     src: url('../public/fonts/neuehaasdisplaymediu-webfont.woff2') format('woff2'), url('../public/fonts/neuehaasdisplaymediu-webfont.woff') format('woff');
+//     font-weight: 500;
+//     font-style: normal;
+// }
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../public/fonts/neuehaasdisplayroman-webfont.woff2') format('woff2'), url('../public/fonts/neuehaasdisplayroman-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../public/fonts/neuehaasdisplaythin-webfont.woff2') format('woff2'), url('../public/fonts/neuehaasdisplaythin-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../public/fonts/neuehaasdisplayxthin-webfont.woff2') format('woff2'), url('../public/fonts/neuehaasdisplayxthin-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../public/fonts/neuehaasdisplayxxthin-webfont.woff2') format('woff2'), url('../public/fonts/neuehaasdisplayxxthin-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    background: #000123;
+}
+
+::-webkit-scrollbar,
+ ::-webkit-scrollbar-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: transparent;
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d1d1d1;
+    border-radius: 1rem;
+}
+
+a {
+    text-decoration: none;
+    transition: .3s;
+}
+
+body {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: "Neue Haas Grotesk Display Pro";
+    letter-spacing: 0.03em;
+    background: #000123;
+    background: linear-gradient(243.18deg, #000040 27.92%, #000123 100%);
+}
+
+.container {
+    width: 100%;
+    max-width: 152rem;
+    padding: 0 2rem;
+}
+
+section {
+    position: relative;
+    z-index: 1;
+    padding: 12rem 0;
+    min-height: 100vh;
+}
+
+.section-title {
+    margin-bottom: 10rem;
+    h2 {
+        font-size: 5.4rem;
+        font-weight: 900;
+        text-align: center;
+        color: #FFF;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+    }
+    p {
+        color: #FFF;
+        font-size: 1.6rem;
+        font-weight: 500;
+        text-align: center;
+        max-width: 68.1rem;
+        margin: 0 auto;
+    }
+    &.text-left {
+        margin-bottom: 5rem;
+        h2,
+        p {
+            text-align: left;
+        }
+        p {
+            margin: 0;
+        }
+    }
+}
+
+.btn-arrow {
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    column-gap: 1.2rem;
+    color: #FFFFFF;
+    span {
+        background: #0075FF;
+        width: 5rem;
+        height: 5rem;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &:hover {
+        color: #FFFFFF;
+    }
+}

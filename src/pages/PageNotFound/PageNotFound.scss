@@ -1,0 +1,31 @@
+.page-not-found {
+    min-height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #E9F0FE;
+
+    h1 {
+        font-size: 16rem;
+        font-weight: 900;
+    }
+
+    h2 {
+        font-size: 6.2rem;
+        font-weight: 700;
+    }
+
+    h3 {
+        font-size: 2.8rem;
+        font-weight: 300;
+        color: #232323;
+    }
+
+    .btn-primary {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-top: 5rem;
+    }
+}

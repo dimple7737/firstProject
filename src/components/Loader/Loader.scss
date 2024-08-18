@@ -1,0 +1,54 @@
+.loader-page {
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #010101;
+    z-index: 9999999;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    .loading-box {
+        max-width: 48.6rem;
+        width: 100%;
+        text-align: center;
+        border: .1rem solid #0075FF;
+        padding: 4rem;
+        color: #FFF;
+        p {
+            font-size: 2rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+        .progress-per {
+            color: #0075FF;
+            font-size: 1.4rem;
+            text-transform: uppercase;
+        }
+        .bar-container {
+            margin: 10px auto 0;
+            max-width: 25rem;
+            .loading-bar {
+                display: inline-flex;
+                align-items: center;
+                span {
+                    width: 20px;
+                    height: 20px;
+                    transition: width 0.3s ease-in-out;
+                    display: block;
+                    &:not(:last-child) {
+                        margin-right: 3px;
+                    }
+                    &.active {
+                        background-color: #0075FF;
+                    }
+                }
+            }
+        }
+    }
+}
